@@ -1,17 +1,15 @@
 package com.testautomationguru.utility;
 
+import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.IOException;
 import java.util.logging.Logger;
-
-import javax.imageio.ImageIO;
 
 class ImageUtil {
 	
 	static Logger logger = Logger.getLogger(ImageUtil.class.getName());
 	
-	static boolean compareAndHighlight(final BufferedImage img1, final BufferedImage img2, String fileName, boolean highlight, int colorCode) throws IOException {
+	static boolean compareAndHighlight(final BufferedImage img1, final BufferedImage img2, String fileName, boolean highlight, int colorCode) {
 
 	    final int w = img1.getWidth();
 	    final int h = img1.getHeight();
