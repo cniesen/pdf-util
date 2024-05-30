@@ -1,11 +1,10 @@
-package com.testautomationguru.utility;
+package com.niesens.pdfutil.utility;
 
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.reporters.Files;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Objects;

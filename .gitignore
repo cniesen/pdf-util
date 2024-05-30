@@ -1,3 +1,7 @@
 /.idea/
+/.gradle/
+/build/
 /target/
 /src/test/resources/image-extract/temp/
+
+gradle.properties

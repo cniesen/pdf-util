@@ -1,0 +1,6 @@
+package com.niesens.pdfutil.utility;
+
+public enum CompareMode {
+	TEXT_MODE,
+	VISUAL_MODE
+}
